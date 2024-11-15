@@ -1,0 +1,51 @@
+.product-form {
+  display: flex;
+  margin: 30px auto;
+  flex-direction: column;
+  max-width: 400px;
+  width: 100%;
+  padding: 40px;
+  background-color: var(--primary-dark);
+  gap: 10px;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.product-form label {
+  color: var(--secondary-light);
+}
+
+.product-form input {
+  background-color: var(--secondary-light);
+  border: none;
+  font-size: 20px;
+  color: var(--primary-dark);
+  padding: 6px;
+}
+
+.product-form h1 {
+  text-align: center;
+  color: var(--secondary-light);
+}
+
+input[type='submit'] {
+  color: var(--primary-dark);
+  background-color: var(--secondary-light);
+  border: none;
+  padding: 10px 16px;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+input[type='submit']:hover {
+  color: var(--secondary-light);
+  background-color: var(--primary-dark);
+  outline: 2px solid var(--secondary-light);
+}
+.center {
+  text-align: center;
+}
+.error-text {
+  color: red;
+}
